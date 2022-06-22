@@ -1,0 +1,137 @@
+        /* Script */
+        #chartdiv { 
+        width: 100%; 
+        height: 500px; 
+        } 
+        /* Corpo */
+        body{
+        background-color: #d6bb92;
+        font-size: 2vh;
+        font-family: sans-serif;         
+        }
+        /* Base */
+        header{
+            background-color: #e55137;
+            border-radius: 20px;
+            color: white;
+        }
+        .titulo{
+            font-size: 3vh;
+            margin: 0 0 0 2vh;
+            padding: 2vh 0 0 0;
+        }
+        .valor{
+            font-size: 5vh;
+            margin: 0 0 0 2vh;
+            padding: 0;
+        }
+        .logo{
+           margin: 0;
+           margin: 0 2vh 2vh 0;
+           width: 7vh;
+           height: 7vh;
+        }
+        .alinhar{
+            display: flex;
+            justify-content: space-between;
+        }
+        /* Superior */
+        section{
+            background-color: #ffffff;
+            border-radius: 20px;
+        }
+        article{
+            display: block;
+        }
+        .subTitulo{
+            text-align: center;
+            font-size: 3vh;
+            padding: 1vh;
+        }
+        main{
+            padding: 0 2vh 0 2vh;
+        }
+        .rendaTempo{
+            font-size: 1.7vh;
+            margin: 0;
+        }
+        .renda{
+            font-size: 5vh;
+            margin: 0;
+        }
+        aside{
+            display: inline;
+            float: right;
+        }
+        .lucro{
+            margin: 0;
+        }
+        .lucroTempo{
+            margin: 0;
+        }
+        /* Control */
+        .control{
+            color: white;
+            margin: 0 0 0 50px;
+        }
+        @media(min-width: 1800px){
+            header{
+            background-color: #e55137;
+            border-radius: 200px;
+            color: white;
+        }
+        .titulo{
+            font-size: 30vh;
+            margin: 0 0 0 20vh;
+            padding: 20vh 0 0 0;
+        }
+        .valor{
+            font-size: 50vh;
+            margin: 0 0 0 20vh;
+            padding: 0;
+        }
+        .logo{
+           margin: 0;
+           margin: 0 20vh 20vh 0;
+           width: 70vh;
+           height: 70vh;
+        }
+        .alinhar{
+            display: flex;
+            justify-content: space-between;
+        }
+        /* Superior */
+        section{
+            background-color: #ffffff;
+            border-radius: 200px;
+        }
+        article{
+            display: block;
+        }
+        .subTitulo{
+            text-align: center;
+            font-size: 30vh;
+            padding: 10vh;
+        }
+        main{
+            padding: 0 20vh 0 20vh;
+        }
+        .rendaTempo{
+            font-size: 17vh;
+            margin: 0;
+        }
+        .renda{
+            font-size: 50vh;
+            margin: 0;
+        }
+        aside{
+            display: inline;
+            float: right;
+        }
+        .lucro{
+            margin: 0;
+        }
+        .lucroTempo{
+            margin: 0;
+        }
+        }
